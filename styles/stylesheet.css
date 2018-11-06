@@ -1,57 +1,76 @@
 body {
-  background-color: lightseagreen;
+  background-color: rgb(129, 196, 211);
 }
 h1 {
     color: blanchedalmond;
     font-size: 5em;
-    font-weight: bolder;
-    font-variant: small-caps;
-    font-family: "Book Antiqua";
+    /*font-weight: lighter;*/
+    /*font-variant: small-caps;*/
+    font-family: "Overlock"; cursive;
     padding-left: 10px;
-    border-left-style: solid;
+    /*border-left-style: solid;
     border-left-color: midnightblue;
-    border-left-width: 15px;
+    border-left-width: 15px;*/
 }
 h2 {
     color: blanchedalmond;
     font-size: 2.5em;
     font-weight: bold;
     font-variant: small-caps;
-    font-family: "Book Antiqua";
+    font-family: "Overlock"; cursive;
     padding-left: 7px;
-    border-left-style: solid;
+    /*border-left-style: solid;
     border-left-color: midnightblue;
-    border-left-width: 10px;
+    border-left-width: 10px;*/
 }
 h3 {
     color:blanchedalmond;
     font-size: 1.75em;
     font-weight: bold;
     font-variant: small-caps;
-    font-family: "Book Antiqua";
+    font-family: "Overlock"; cursive;
     padding-left: 5px;
-    border-left-style: solid;
+    /*border-left-style: solid;
     border-left-color: midnightblue;
-    border-left-width: 10px;
+    border-left-width: 10px;*/
 }
+p {
+  font-family: Calibri;
+}
+/*aside {
+  font-family: Arial;
+}*/
 ul {
   list-style: none;
   font-size: 1em;
-  font-family: "Book Antiqua";
+  font-family: Calibri;
   padding: 5px 0;
   text-align: left;
 }
-li {
-  display: inline
-}
+/*li {
+  display: inline;
+}*/
 ul.nav-bar {
   list-style: none;
-  font-size: 1em;
-  font-family: "Book Antiqua";
-  padding: 5px;
+  font-size: 1.5em;
+  font-family: "Petit Formal Script"; cursive;
+  font-weight: bolder;
+  padding: .5em;
   text-align: center;
   border-style: solid;
   border-color: midnightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+.project-link {
+  text-decoration: none;
+  color: white;
+  font-family: "Dosis"; sans-serif;
 }
 li.projects, li.languages{
   display: block;
@@ -59,8 +78,28 @@ li.projects, li.languages{
 li.languages, li.skills, p.pro-exp {
   padding-left: 25px;
 }
+#headshot {
+  float: left;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  height: auto;
+}
+p.about-me {
+  height: 12em;
+  width: 40em;
+  font-size: 1.25em;
+}
+i {
+  font-size: 1em;
+  padding-right: .5em;
+  color: midnightblue;
+}
 footer.homepage {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+footer {
+  font-family: "Petit Formal Script"; cursive;
+  color: white;
 }
