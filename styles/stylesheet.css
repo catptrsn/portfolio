@@ -34,6 +34,13 @@ h3 {
     border-left-color: midnightblue;
     border-left-width: 10px;*/
 }
+h3 a {
+  color: blanchedalmond;
+}
+a:link {
+  text-decoration: none;
+  color: blanchedalmond;
+}
 p {
   font-family: Calibri;
 }
@@ -67,16 +74,40 @@ ul.nav-bar {
   text-decoration: none;
   color: white;
 }
+.nav-link:hover {
+  color: midnightblue;
+  font-size: 2rem;
+  transition-property: color; font-size;
+  transition-delay: 0s;
+}
 .project-link {
+  font-size: 1.25rem;
   text-decoration: none;
   color: white;
   font-family: "Dosis"; sans-serif;
+}
+.project-link:hover {
+  color: midnightblue;
+  font-size: 2rem;
+  transition-property: color; font-size;
+  transition-delay: 0s;
 }
 li.projects, li.languages{
   display: block;
 }
 li.languages, li.skills, p.pro-exp {
   padding-left: 25px;
+}
+li.languages:nth-child(odd) {
+  color: midnightblue;
+}
+li.languages:nth-child(even) {
+  color: crimson;
+}
+#linkedin:hover {
+  font-size: 2em;
+  transition-property: font-size;
+  transition-delay: 0s;
 }
 #headshot {
   float: left;
